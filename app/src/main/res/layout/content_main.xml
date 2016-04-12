@@ -29,21 +29,22 @@
         android:layout_height="wrap_content"
         android:text="@string/bienvenido"
         android:id="@+id/textView"
-        android:layout_alignTop="@+id/imageView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="83dp"
+        android:layout_marginTop="47dp"
         android:textSize="@dimen/abc_text_size_display_3_material"
         android:textColorLink="#ffffff"
-        android:textColor="#ffffff" />
+        android:textColor="#ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
-    <EditText
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText"
+        android:text="@string/entrar"
+        android:id="@+id/button"
+        android:textSize="@dimen/abc_text_size_display_1_material"
+        android:textColor="#ffffff"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="59dp"
-        android:text="@string/entrar"
-        android:textColor="#ffffff"
-        android:textSize="@dimen/abc_text_size_display_1_material" />
+        android:layout_marginTop="25dp" />
+
 </RelativeLayout>
